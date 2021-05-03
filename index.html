@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/left-panel/left-panel.css" />
+  <link rel="stylesheet" href="/css/left-panel/profile.css" />
+  <link rel="stylesheet" href="/css/left-panel/links.css" />
+  <link rel="stylesheet" href="/css/content/content.css" />
+  <link rel="stylesheet" href="/css/content/home.css" />
+  <link rel="stylesheet" href="/css/content/projects.css" />
+  <link rel="stylesheet" href="/css/content/skills.css" />
+  <link rel="stylesheet" href="/css/content/about.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="shortcut icon" href="/img/user.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/63013deb7c.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="left-panel">
+      <div class="profile">
+        <div class="profile-picture">
+          <img id="profile-picture" src="" alt="" />
+        </div>
+        <div class="profile-name">
+          <h1 id="name"></h1>
+        </div>
+        <div id="profile-links" class="profile-links">
+          <ul id="profile-links-ul"></ul>
+        </div>
+      </div>
+      <div class="links">
+        <ul>
+          <li>
+            <a class="link" href="#home">
+              <i class="link-icon fas fa-dice-five"></i>
+              <span> Home </span>
+            </a>
+          </li>
+          <li>
+            <a class="link" href="#projects">
+              <i class="link-icon far fa-file"></i>
+              <span> Projects </span>
+            </a>
+          </li>
+          <li>
+            <a class="link" href="#skills">
+              <i class="link-icon fas fa-clipboard-list"></i>
+              <span> Skills </span></a>
+          </li>
+          <li>
+            <a class="link" href="#about">
+              <i class="link-icon far fa-user"></i>
+              <span> About </span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="content" class="content">
+        <div class="home" id="home">
+          <p id="welcome-message-fixed"></p>
+          <div class="home-welcome">
+            <p id="welcome-message-animated" class="welcome-message-animated"></p>
+          </div>
+          <div class="moving-mouse-holder">
+            <div class="mouse">
+              <div class="mouse-button">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+        <div class="projects" id="projects">
+          <div class="projects-title">
+            <h1>Projects</h1>
+            <span class="projects-title-description">
+              <p>Made with ❤️ by&nbsp</p>
+              <p id="name"></p>
+            </span>
+          </div>
+          <div id="projects-wrapper" class="projects-wrapper"></div>
+        </div>
+        <div class="skills" id="skills">
+          <div class="skills-title">
+            <h1>Skills</h1>
+            <p>Programming Languages and Frameworks</p>
+          </div>
+          <div id="skills-wrapper" class="skills-wrapper">
+            
+          </div>
+        </div>
+        <div class="about" id="about">
+          <div class="about-title">
+            <h1>About</h1>
+            <p id="about-title-description"></p>
+          </div>
+          <div class="about-wrapper">
+            <div class="about-description">
+              <p id="about-description"></p>
+            </div>
+            <div id="about-images" class="about-images"></div>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/smoothScrolling.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+</body>
+
+</html>

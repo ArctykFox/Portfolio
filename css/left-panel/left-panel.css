@@ -1,0 +1,17 @@
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background: #040b14;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 1080px) {
+  .left-panel {
+    display: none;
+  }
+}

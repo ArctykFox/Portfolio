@@ -1,0 +1,37 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.profile h1 {
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+.profile-picture img {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border: 5px solid #2c2f3f;
+  border-radius: 100px;
+}
+
+.profile-links {
+  width: 100%;
+}
+
+.profile-links ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 25px;
+}
+
+.profile-links a {
+  color: #6c757d;
+  font-size: 21px;
+}

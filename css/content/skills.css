@@ -1,0 +1,104 @@
+.skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-title {
+  margin: 25px;
+  color: #040b14;
+  text-align: center;
+}
+
+.skills-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 25px;
+}
+
+.skill {
+  color: #040b14;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 28px;
+}
+
+.skill h1 {
+  font-size: 21px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.skill-title {
+  margin: 5px;
+}
+
+/*ICON COLORS*/
+.skill-css {
+  color: #2277ff;
+}
+
+.skill-html {
+  color: #e34f26;
+}
+
+.skill-python {
+  color: #366d9b;
+}
+
+.skill-discord, .skill-discord-api {
+  color: #7087d5;
+}
+
+.skill-javascript {
+  color: #ecd74d;
+}
+
+.skill-git {
+  color: #d84a34;
+}
+
+.skill-django {
+  color: #092c1f;
+}
+
+.skill-bots {
+  color: aqua;
+}
+
+.skill-flask {
+  color: #292d35;
+}
+
+.skill-web-scraping {
+  color: #dc965a;
+}
+
+.skill-server {
+  color: #4c243b;
+}
+
+.skill-vue-js {
+  color: #40b581;
+}
+
+.skill-linux {
+  color: #040b14;
+}
+
+.skill-angular {
+  color: #de002d;
+}
+
+
+
+@media screen and (max-width: 450px) {
+  .skills-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

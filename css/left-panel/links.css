@@ -1,0 +1,41 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding-right: 45px;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links li {
+  margin: 25px 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #6c757d;
+  font-weight: 400;
+  font-size: 18px;
+  transition: color 0.5 ease-in;
+}
+
+.link:active,
+.link:hover,
+.link:focus {
+  color: white;
+  transition: color 0.5 ease-in;
+}
+
+.link:focus .link-icon,
+.link:hover .link-icon,
+.link:active .link-icon {
+  color: #149ddd;
+  transition: color 0.5 ease-in;
+}
+
+.links i {
+  padding-right: 10px;
+}

@@ -1,0 +1,23 @@
+{
+    "css": "<i class='fab fa-css3-alt'></i>",
+    "html": "<i class='fab fa-html5'></i>",
+    "javascript": "<i class='fab fa-js-square'></i>",
+    "python": "<i class='fab fa-python'></i>",
+    "git": "<i class='fab fa-git-alt'></i>",
+    "vue-js": "<i class='fab fa-vuejs'></i>",
+    "angular": "<i class='fab fa-angular'></i>",
+    "discord-api": "<i class='fab fa-discord'></i>",
+    "discord": "<i class='fab fa-discord'></i>",
+    "bots": "<i class='fas fa-robot'></i>",
+    "web-scraping": "<i class='fas fa-globe'></i>",
+    "figma": "<i class='fab fa-figma'></i>",
+    "linux": "<i class='fab fa-linux'></i>",
+    "github": "<i class='fab fa-github-square'></i>",
+    "mail": "<i class='fas fa-envelope'></i>",
+    "linkedin": "<i class='fab fa-linkedin'></i>",
+    "twitter": "<i class='fab fa-twitter-square'></i>",
+    "facebook": "<i class='fab fa-facebook-square'></i>",
+    "instagram": "<i class='fab fa-instagram'></i>",
+    "unity": "<i class='fab fa-unity'></i>",
+    "default": "<i class='fas fa-code'></i>"
+}
