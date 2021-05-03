@@ -12,6 +12,7 @@
 
 .links li {
   margin: 25px 20px;
+  -webkit-overflow-scrolling: touch;
 }
 
 .link {
@@ -20,6 +21,7 @@
   font-weight: 400;
   font-size: 18px;
   transition: color 0.5 ease-in;
+  -webkit-overflow-scrolling: touch;
 }
 
 .link:active,

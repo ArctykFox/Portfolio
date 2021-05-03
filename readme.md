@@ -158,11 +158,27 @@ Example:
     		"linkedin": "Your linkedin url",
 
     		"Facebook": "Your Facebook url"
+    	}
     }
 
 Output:
 
 ![enter image description here](./example/socials.png)
+
+# Add email adress
+
+To add your email adress in the social media section, you simply need to prefix your email with "mailto:"
+
+Example:
+
+    "socials": {
+
+    		"github": "Your github url",
+
+    		"Facebook": "Your Facebook url"
+
+    		"mail": "mailto:example@example.com"
+    	}
 
 # Changing about section
 
